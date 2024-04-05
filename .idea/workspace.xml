@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="adacfc4a-f9b2-4051-b1b7-04d917bca60c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/100_days_python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle/different_shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle/hirst_painting/bart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle/hirst_painting/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle/hirst_painting/master_painting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle/random_walker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle/spirograph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle/square.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ecdtc03UC4ljaX6OT1bhbgRphZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.different_shapes.executor": "Run",
+    "Python.master_painting.executor": "Run",
+    "Python.random_walker.executor": "Run",
+    "Python.spirograph.executor": "Run",
+    "Python.square.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/danyw/PycharmProjects/100_days_python/turtle",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danyw\PycharmProjects\100_days_python\turtle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danyw\PycharmProjects\100_days_python\turtle\hirst_painting" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adacfc4a-f9b2-4051-b1b7-04d917bca60c" name="Changes" comment="" />
+      <created>1712208015242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712208015242</updated>
+    </task>
+    <servers />
+  </component>
+</project>
