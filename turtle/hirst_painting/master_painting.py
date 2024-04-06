@@ -23,9 +23,9 @@ def random_color(c_palet):
     return dot_color
 
 
-row_position = 0.0
+row_position = -250.0
 for dot in range(0, number_of_dots_per_row):
-    timmy.goto(0.0, row_position)
+    timmy.goto(-250.0, row_position)
     row_position += 30
     for row in range(0, number_of_dots_per_row):
         # timmy.pencolor()
@@ -33,7 +33,7 @@ for dot in range(0, number_of_dots_per_row):
         timmy.dot(dot_thickness, random_color(color_palet))
         timmy.penup()
         timmy.forward(30)
-timmy.home()
+# timmy.home()
 
 screen = t.Screen()
 screen.exitonclick()
