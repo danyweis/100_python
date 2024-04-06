@@ -1,5 +1,5 @@
 import turtle as t
-# from turtle import Turtle, Screen
+# from 18-turtle import Turtle, Screen
 import random
 
 t.colormode(255)
