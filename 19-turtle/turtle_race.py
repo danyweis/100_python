@@ -23,14 +23,13 @@ if user_bet:
 while is_race_on:
     for i in turtles:
         go = r.randint(0, 10)
-        print(i.color()[0])
         i.forward(go)
-        if i.xcor() >= 240:
+        if i.xcor() >= 230:
             is_race_on = False
-            if i.color()[0] == user_bet:
-                print(f"Your bet was correct. {i.color()[0]} won!")
+            if i.pencolor() == user_bet:
+                print(f"Your bet was correct. {i.pencolor()} won!")
             else:
-                print(f"You bet wrong. {i.color()[0]} won!")
+                print(f"You bet wrong. {i.pencolor()} won!")
             break
 
 screen.listen()
