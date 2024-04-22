@@ -1,42 +1,36 @@
-from turtle import Screen, Turtle, Shape
-
+from turtle import Screen
+from snake import Snake
+from food import Food
+from scoreboard import Scoreboard
+import time
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("SNAKE Game")
 
-game_on = True
-snake = Turtle("square")
-snake.penup()
-snake.color("white")
-snake.speed("slowest")
-# snake.width(20)
-# snake.pensize(20)
-head_position = (0.0, 0.0)
-head_direction = "e"
-snakes = []
-body_x = [0.0, -10.0, -20.0]
-body_y = [0.0, 0.0, 0.0]
+screen.tracer(0)
 
-for i in range(body_x):
-    snake = Turtle("square")
-    snake.penup()
-    snake.color("white")
-    snake.speed("slowest")
-    snakes.append(snake)
+game_on = True
+
+snake = Snake()
+food = Food()
+scoreboard = Scoreboard()
+
+screen.listen()
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right")
 
 while game_on:
-    for i in range(len(snakes)):
+    screen.update()
+    time.sleep(0.1)
+    snake.move()
 
-        if head_direction == "e":
-            body_x.insert(0, )
-
-        position = (body_x[i], body_y[1])
-        snakes[i].goto(position)
-
-
-
-
-
+    # when snake collides with the food
+    if snake.head.distance(food) < 15:
+        food.refresh()
+        scoreboard.score += 1
+        scoreboard.reprint()
 
 screen.exitonclick()
