@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adacfc4a-f9b2-4051-b1b7-04d917bca60c" name="Changes" comment="added food and scoreboard">
-      <change afterPath="$PROJECT_DIR$/27-tkinter/converter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27-tkinter/examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27-tkinter/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27-tkinter/play.py" afterDir="false" />
+    <list default="true" id="adacfc4a-f9b2-4051-b1b7-04d917bca60c" name="Changes" comment="working with Tkinter">
+      <change afterPath="$PROJECT_DIR$/28-pomodoro-tkinter/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28-pomodoro-tkinter/tomato.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +60,7 @@
       <recent name="C:\Users\danyw\PycharmProjects\100_days_python\turtle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danyw\PycharmProjects\100_days_python\28-pomodoro-tkinter" />
       <recent name="C:\Users\danyw\PycharmProjects\100_days_python\turtle\hirst_painting" />
     </key>
   </component>
@@ -159,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713772400369</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="working with Tkinter">
+      <option name="closed" value="true" />
+      <created>1713936343433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713936343433</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +176,7 @@
     <MESSAGE value="finishing turtle_race" />
     <MESSAGE value="working on snake logic" />
     <MESSAGE value="added food and scoreboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="added food and scoreboard" />
+    <MESSAGE value="working with Tkinter" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with Tkinter" />
   </component>
 </project>
